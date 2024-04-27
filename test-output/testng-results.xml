@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3013" started-at="2024-04-27T12:05:29Z" finished-at="2024-04-27T12:05:32Z">
+  <suite name="Default suite" duration-ms="2995" started-at="2024-04-27T17:05:27Z" finished-at="2024-04-27T17:05:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3013" started-at="2024-04-27T12:05:29Z" finished-at="2024-04-27T12:05:32Z">
-      <class name="com.restAssue.pract.GetAllData">
-        <test-method status="PASS" signature="deleteaId()[pri:0, instance:com.restAssue.pract.GetAllData@17e2f02]" name="deleteaId" duration-ms="2935" started-at="2024-04-27T17:35:29Z" finished-at="2024-04-27T17:35:32Z">
+    <test name="Default test" duration-ms="2995" started-at="2024-04-27T17:05:27Z" finished-at="2024-04-27T17:05:30Z">
+      <class name="com.restAssue.pract.GetAllDataBDDStyle2">
+        <test-method status="PASS" signature="postDatainBDDformatfile()[pri:0, instance:com.restAssue.pract.GetAllDataBDDStyle2@17e2f02]" name="postDatainBDDformatfile" duration-ms="2948" started-at="2024-04-27T22:35:27Z" finished-at="2024-04-27T22:35:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteaId -->
-      </class> <!-- com.restAssue.pract.GetAllData -->
+        </test-method> <!-- postDatainBDDformatfile -->
+      </class> <!-- com.restAssue.pract.GetAllDataBDDStyle2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
