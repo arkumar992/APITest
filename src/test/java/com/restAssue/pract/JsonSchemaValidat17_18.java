@@ -16,7 +16,7 @@ public class JsonSchemaValidat17_18 {
 	
 	@Test(enabled = false)
 	
-	// output compared with jsonschema using matchesJsonSchemaInClasspath
+	// output compared with jsonschema using Rest Assured library  function - JsonSchemaValidator. matchesJsonSchemaInClasspath
 	public void jsonschmaValidation() {
 		
 		
@@ -26,7 +26,7 @@ public class JsonSchemaValidat17_18 {
 			
 	}
 	
-	// output compared with jsonschema using matchesJsonSchema when different location schma file aviable
+	// output compared with jsonschema using  Rest Assured library  function - JsonSchemaValidator.matchesJsonSchema for  different location schma if file available.
 	
 	
 	@Test()
@@ -39,7 +39,7 @@ public void jsonschmaValidationwithoutClasspath() throws FileNotFoundException {
 		Reader rd = new FileReader("D:\\Sel\\API\\PostReqeJsonSchemaValidaDiffLOC.json"); // another method read a file
 		
 		RestAssured.given().baseUri("http://localhost:3000").header("content-type", "application/json").body(file).when().post("/Students")
-		.then().body(JsonSchemaValidator.matchesJsonSchema(rd)); // its accepting only in classpath(must in src/test/resources) located json file
+		.then().body(JsonSchemaValidator.matchesJsonSchema(rd)); // its accepting any where  located json file example schma ,in , rd
 			
 	}
 }

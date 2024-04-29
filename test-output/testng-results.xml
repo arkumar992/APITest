@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4093" started-at="2024-04-29T03:20:17Z" finished-at="2024-04-29T03:20:21Z">
+  <suite name="Default suite" duration-ms="1382" started-at="2024-04-29T17:55:29Z" finished-at="2024-04-29T17:55:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4093" started-at="2024-04-29T03:20:17Z" finished-at="2024-04-29T03:20:21Z">
-      <class name="com.restAssue.pract.JsonSchemaValidat17_18">
-        <test-method status="PASS" signature="jsonschmaValidationwithoutClasspath()[pri:0, instance:com.restAssue.pract.JsonSchemaValidat17_18@1622fdf]" name="jsonschmaValidationwithoutClasspath" duration-ms="4000" started-at="2024-04-29T08:50:17Z" finished-at="2024-04-29T08:50:21Z">
+    <test name="Default test" duration-ms="1382" started-at="2024-04-29T17:55:29Z" finished-at="2024-04-29T17:55:30Z">
+      <class name="com.restAssue.pract.JsonSchmaValidaUseHamCrest20">
+        <test-method status="PASS" signature="HamCresetMethod()[pri:0, instance:com.restAssue.pract.JsonSchmaValidaUseHamCrest20@3f4d3d]" name="HamCresetMethod" duration-ms="1307" started-at="2024-04-29T23:25:29Z" finished-at="2024-04-29T23:25:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jsonschmaValidationwithoutClasspath -->
-      </class> <!-- com.restAssue.pract.JsonSchemaValidat17_18 -->
+        </test-method> <!-- HamCresetMethod -->
+      </class> <!-- com.restAssue.pract.JsonSchmaValidaUseHamCrest20 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
