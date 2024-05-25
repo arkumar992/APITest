@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.jayway.jsonpath.JsonPath;
 
-public class InlinePredictExamples {
+public class InlinePredictExamples34 {
 
 	// we can give filter/condition in json path && || ! not equals --it is called inline predicate
 	
