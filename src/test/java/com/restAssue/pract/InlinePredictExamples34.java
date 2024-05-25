@@ -14,7 +14,7 @@ public class InlinePredictExamples34 {
 	public static void inLinePredict() throws IOException {
 		File file = new File("src/test/resources/BookJson.json");
 		
-		// List<Object> pricelist		= JsonPath.read(file, "$.store.book[?(@.price<10)]"); price less than 10 books
+		// List<Object> pricelist		= JsonPath.read(file, "$.store.book[?(@.price<10)]"); price less than 10 books .
 		 // List<Object> pricelist		= JsonPath.read(file, "$.store.book[?(@.price<10 && @.category == 'fiction')].price"); price less than 10 and category is fiction
 		 // List<Object> pricelist		= JsonPath.read(file, "$.store.book[?(@.price<10 || @.category == 'fiction')]"); // price less than 10 OR  category is fiction
 		 
