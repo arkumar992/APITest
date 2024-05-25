@@ -16,7 +16,7 @@ public class FilterPredicatteAPI35 {
 
 	public  void filterAPIPredictExamble() throws IOException {
 		
-		Filter priceLessthanten = Filter.filter(Criteria.where("price").lt(10));  // using filter class filter method enter criteria  via criteria class functions
+		Filter priceLessthanten = Filter.filter(Criteria.where("price").lt(10));  //. using filter class filter method enter criteria  via criteria class functions
 		
 		List<Object> pricelist = JsonPath.read(file, "$.store.book[?]", priceLessthanten);
 		

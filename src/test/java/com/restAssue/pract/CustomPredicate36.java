@@ -14,7 +14,7 @@ public class CustomPredicate36 {
 	public void myCustomPredict() throws IOException {
 		// we can writer our own customized predicate using Predicate interface apply method
 		
-		//Functional interface is have one Method only with some interface. example Predicate interface
+		//Functional interface is have one Method only with some interface. example Predicate interface.
 		
 		File file = new File("src/test/resources/BookJson.json");
 		
