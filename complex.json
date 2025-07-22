@@ -1,0 +1,29 @@
+{
+  "acceptedFranchises" : [ "DC", "Marvel" ],
+  "genres" : [ "Action", "Adventure", "Heroic", "Dark", "Funny" ],
+  "movies" : [ {
+    "title" : "batman: The Dark Knight",
+    "year" : 2009,
+    "cast" : [ "Christian Bale", "Heath Ledger" ]
+  }, {
+    "title" : "Justice League: Snyder Cut",
+    "year" : 2010,
+    "cast" : [ "Henry Carnival", "Gal Gadot" ]
+  }, {
+    "title" : "Tamil Movie: Gilli",
+    "year" : 2005,
+    "cast" : [ "Vijay", "Thrisha" ]
+  } ],
+  "tvseries" : [ {
+    "title" : "Flash",
+    "year" : 2011
+  }, {
+    "title" : "Mettioli",
+    "year" : 2006
+  } ],
+  "otherdetails" : {
+    "country" : "india",
+    "language" : "Tamil"
+  },
+  "category" : "Super Hero Movies And TV series"
+}
