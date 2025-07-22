@@ -3,11 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.restAssue.pract.JsonSchmaValidaUseHamCrest20">
+      <class name="com.restAssue.pract.BasicAuthExamplee">
         <methods>
-          <include name="HamCresetMethod"/>
+          <include name="getAlldataBDDformat"/>
         </methods>
-      </class> <!-- com.restAssue.pract.JsonSchmaValidaUseHamCrest20 -->
+      </class> <!-- com.restAssue.pract.BasicAuthExamplee -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

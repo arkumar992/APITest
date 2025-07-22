@@ -1,5 +1,6 @@
 package com.restAssured.pojodemo;
 
+
 import java.util.Arrays;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -19,6 +20,10 @@ public class CallStudentClass {
 		ObjectMapper mapper = new ObjectMapper(); // its most important for converting normal object values to Json format.
 		String studetJson = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(sd); // remember this function
 		System.out.println(studetJson);
+		
+		
+		
+		
 	}
 
 }

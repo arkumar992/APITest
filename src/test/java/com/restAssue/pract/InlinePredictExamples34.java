@@ -20,6 +20,7 @@ public class InlinePredictExamples34 {
 		 
 		List<Object> pricelist		= JsonPath.read(file, "$.store.book[?(!(@.price>10 || @.category == 'fiction'))]"); // price gretha 10 not equals OR category not equls to fiction
 		
+		System.out.println("Indefinte method pricelist "+ pricelist);
 		for (Object price : pricelist) {
 			
 			System.out.println("Indefinte method price "+ price);

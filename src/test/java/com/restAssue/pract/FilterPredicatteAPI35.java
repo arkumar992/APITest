@@ -27,7 +27,7 @@ public class FilterPredicatteAPI35 {
 	
 	public  void secondfilterAPIPredictExamble() throws IOException {
 	
-		Filter secondcriteria = Filter.filter(Criteria.where("price").lt(10).and("category").is("fiction")); // price less than 10 and category is fiction
+		Filter secondcriteria = Filter.filter(Criteria.where("price").lt(10).and("category").is("fiction")); // price less than 10 and category is(equals) fiction
 		
 		List<Object> pricelist = JsonPath.read(file, "$.store.book[?]", secondcriteria);
 		System.out.println(pricelist);

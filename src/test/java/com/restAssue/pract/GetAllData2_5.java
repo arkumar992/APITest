@@ -7,9 +7,11 @@ import io.restassured.http.Method;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class GetAllData {
+public class GetAllData2_5 {
 
 	@Test(enabled = false)
+	
+	// Below method for video 2 - Get request Non BDD style
 	public void getAllStudData() {
 
 		RestAssured.baseURI ="http://localhost:3000/";
@@ -24,6 +26,7 @@ public class GetAllData {
 	}
 
 	@Test(enabled = false)
+	// Below method for video 3 - Post Request Non Bdd Style
 	public void creatAnemployee() {
 
 		RestAssured.baseURI ="http://localhost:3000"; //if end with / then request should not start with /
@@ -42,6 +45,8 @@ public class GetAllData {
 	}
 	
 	@Test(enabled = false)
+	
+	// below method for video 4 - Put request Non bdd style
 	public void updateStudent() {
 		
 		RestAssured.baseURI = "http://localhost:3000";
@@ -56,7 +61,7 @@ public class GetAllData {
 	System.out.println(res.asPrettyString());
 	System.out.println(res.getStatusLine());
 	}
-	
+	// below method for video 5 - Delete request non bdd style
 	@Test()
 	public void deleteaId() {
 		
@@ -64,9 +69,10 @@ public class GetAllData {
 		
 		RequestSpecification res =RestAssured.given();
 		
-		Response rs = res.request(Method.DELETE,"/Students/140");
+		Response rs = res.request(Method.DELETE,"/Students/149");
 		
 		System.out.println(rs.asPrettyString());
+		System.out.println(rs.getStatusLine());
 	}
 	
 

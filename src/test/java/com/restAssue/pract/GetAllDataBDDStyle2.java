@@ -12,7 +12,7 @@ public class GetAllDataBDDStyle2 {
 	public void getAlldataBDDformat() {
 		
 		RestAssured.given().baseUri("http://localhost:3000").when().get("/Students").prettyPrint();
-		
+	
 	}
 
 	@Test(enabled = false)
@@ -51,7 +51,7 @@ public class GetAllDataBDDStyle2 {
 	
 	public void postDatainBDDformatfile() {
 		
-	File file = new File("PostData.json");
+	File file = new File("PostData.json"); // file should be available at project level
 		RestAssured.given().baseUri("http://localhost:3000").header("content-type", "application/json").body(file).when().post("/Students").prettyPrint();
 		
 	}

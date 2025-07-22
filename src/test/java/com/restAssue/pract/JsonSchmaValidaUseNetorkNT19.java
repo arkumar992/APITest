@@ -21,14 +21,14 @@ public class JsonSchmaValidaUseNetorkNT19 {
 		
 		File file = new File("src//test//resources//PostReqest.json");
 		
-		ObjectMapper mapper = new ObjectMapper();
+		ObjectMapper mapper = new ObjectMapper(); // first step
 		
-	JsonNode jsondata =	mapper.readTree(file);
+	JsonNode jsondata =	mapper.readTree(file);// readTree method allowing file object so we used File class=> It's reading file and storing in Jsonnode
 		
-		JsonSchemaFactory factory	= JsonSchemaFactory.getInstance(VersionFlag.V4);
-		InputStream fileinput = new FileInputStream("D:\\Sel\\API\\PostReqeJsonSchemaValidaDiffLOC.json");
-	JsonSchema schema	= factory.getSchema(fileinput);
-	Set<ValidationMessage> message = schema.validate(jsondata);
+		JsonSchemaFactory factory	= JsonSchemaFactory.getInstance(VersionFlag.V4); //3rd step for set schema version using JsonSchemaFactory
+		InputStream fileinput = new FileInputStream("D:\\Sel\\API\\PostReqeJsonSchemaValidaDiffLOC.json"); 
+	JsonSchema schema	= factory.getSchema(fileinput); // getSchma function allow InputStream object so we used file input stream and stored data at Jsonschma class object 
+	Set<ValidationMessage> message = schema.validate(jsondata); // compare json file data again that schema file
 	
 	if(message.isEmpty()) {
 		
